@@ -24,7 +24,7 @@ OB訪問用のアプリはあるものの、双方が繋がることで初めて
 <...>
 
 ## チャレンジ要素一覧
-<https://docs.google.com/spreadsheets/d/1E4Quehglf9PxM1XTE-ft2X5-hJ5dmoJhsI-UJlgzVmY/edit#gid=0>
+<https://docs.google.com/spreadsheets/d/1IbGV2pJ8PQ76JOP0k8lE1vNwY90CK8YQJuVgYFguy_o/edit#gid=0>
 
 ## 開発環境
 - OS：Linux(CentOS)
