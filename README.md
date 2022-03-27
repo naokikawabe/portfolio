@@ -1,24 +1,35 @@
-# README
+# <就活知恵袋（仮タイトル）>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+<就職活動において、学生が聞きたい質問、企業の人事が聞きたい質問、
+それぞれに対してそれぞれが回答することができるかつ
+最も良いと思う質問を回答した人と直接チャットをすることが可能になるサイト（選ばれた人同士のみ本名でやり取りすることができる）>
 
-Things you may want to cover:
+### サイトテーマ
+<就職活動（採用活動）における疑問を解消しつつ、求める回答をくれる人とつながることができるサイト>
 
-* Ruby version
+### テーマを選んだ理由
+<就職活動において、情報を集めるサイトはあるが、匿名での投稿しかされていないというところで、情報の真偽を図ることが難しいということがある
+OB訪問用のアプリはあるものの、双方が繋がることで初めて回答が得られるという状況で、一人一人に聞かないといけないというところで難しくなっているため
+不特定多数の人に対して質問を投げることができるかつ、会社員側は社名を公開して行うことで、より具体的かつ詳しい情報を提供すると考えられるため、情報収集として使えると考えました。>
 
-* System dependencies
+### ターゲットユーザ
+<就職活動中の大学生、専門・短大性及び企業の採用担当者>
 
-* Configuration
+### 主な利用シーン
+<学生：就職活動の中で情報収集をする時
+人事：採用活動でスカウトに近い形で少人数の集客を行いたい時>
 
-* Database creation
+## 設計書
+<...>
 
-* Database initialization
+## チャレンジ要素一覧
+<https://docs.google.com/spreadsheets/d/1IbGV2pJ8PQ76JOP0k8lE1vNwY90CK8YQJuVgYFguy_o/edit#gid=0>
 
-* How to run the test suite
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
