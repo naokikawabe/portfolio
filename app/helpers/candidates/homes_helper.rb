@@ -1,0 +1,2 @@
+module Candidates::HomesHelper
+end

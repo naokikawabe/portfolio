@@ -1,2 +1,0 @@
-module Candidate::QuestionsHelper
-end

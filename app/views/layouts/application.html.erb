@@ -10,6 +10,40 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to root_path, class: 'nav-link text-dark' do %>
+        就活知恵袋
+      <% end %>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <nav class="header-list">
+                <li class="heder-list-item">
+                  <%= link_to homes_about_path do %>
+                    About
+                  <% end %>
+                </li>
+                <li class="heder-list-item">
+                  <%= link_to new_candidate_registration_path do %>
+                    新規登録
+                  <% end %>
+                </li>
+                <li class="heder-list-item">
+                  <%= link_to new_candidate_session_path do %>
+                    ログイン
+                  <% end %>
+                <li class="heder-list-item">
+                  <%= link_to new_recruiter_session_path do %>
+                    人事の方はこちら
+                  <% end %>
+                </li>
+              </nav>
+          </div>
+    </header>
     <%= yield %>
   </body>
 </html>

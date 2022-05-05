@@ -1,35 +1,29 @@
 Rails.application.routes.draw do
 
-  scope module: :candidate do
+  scope module: :candidates do
     root to: 'homes#top'
     get 'homes/about'
   end
 
 
   devise_for :recruiters, controllers: {
-    sessions: 'users/sessions',
-    passwords: 'users/passwords',
-    registrations: 'users/registrations'
+    sessions: 'recruiters/sessions',
+    passwords: 'recruiters/passwords',
+    registrations: 'recruiters/registrations'
   }
 
   devise_for :candidates, controllers: {
-    sessions: 'users/sessions',
-    passwords: 'users/passwords',
-    registrations: 'users/registrations'
+    sessions: 'candidates/sessions',
+    passwords: 'candidates/passwords',
+    registrations: 'candidates/registrations'
   }
 
   devise_for :admins, controllers: {
-    sessions: 'users/sessions',
-    passwords: 'users/passwords',
-    registrations: 'users/registrations'
+    sessions: 'admins/sessions',
+    passwords: 'admins/passwords',
+    registrations: 'admins/registrations'
   }
 
-  namespace :candidate do
-    resources :questions
-    resources :profiles
-    resources :answers
-    resources :chats
-  end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
